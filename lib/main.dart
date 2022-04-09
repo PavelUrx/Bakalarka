@@ -4,7 +4,7 @@ import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() {
+Future<void> main() async {
   setUpApp();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,

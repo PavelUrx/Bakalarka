@@ -14,6 +14,7 @@ class BasicBlock extends SpriteComponent with HasGameRef {
   Future<void>? onLoad() async {
     super.onLoad();
     size = blockSize;
+    poseBlock(size);
     sprite = await gameRef.loadSprite(spritePath);
   }
 
@@ -27,7 +28,6 @@ class BasicBlock extends SpriteComponent with HasGameRef {
   void onGameResize(Vector2 size) {
     screenSize = size;
     resizeBlock(size);
-    //poseBlock(size);
     super.onGameResize(size);
   }
 
@@ -44,14 +44,24 @@ class BasicBlock extends SpriteComponent with HasGameRef {
 
   //sets block on correct sport
   void poseBlock(Vector2 size) {
-    position.x = (size.x - blockSize.x) / 2;
+    position.x = (screenSize.x - blockSize.x) / 2;
     position.y = -blockSize.y;
   }
 
+  //reacts on gesture from display, reacts at specified % of display
   bool onGesture(String gesture) {
-    if (gesture == correctGesture && position.y > fromWhereReact) {
+    if (gesture == correctGesture &&
+        (position.y / screenSize.y) * 100 >
+            (fromWhereReact / screenSize.y) * 100) {
       return true;
     }
     return false;
+  }
+
+  //deletes sprite after object is removed
+  @override
+  void onRemove() {
+    sprite!.image.dispose();
+    super.onRemove();
   }
 }
