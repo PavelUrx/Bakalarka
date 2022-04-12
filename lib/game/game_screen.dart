@@ -75,14 +75,10 @@ class _GameScreenState extends State<GameScreen> {
     double speed = details.velocity.pixelsPerSecond.dx;
     if (speed > 0) {
       setState(() => swipeInfo = 'RIGHT ');
-      if (base.currentBlock.onGesture(swipeInfo)) {
-        setState(() => score++);
-      }
+      gestureHandler(swipeInfo);
     } else if (speed < 0) {
       setState(() => swipeInfo = 'LEFT ');
-      if (base.currentBlock.onGesture(swipeInfo)) {
-        setState(() => score++);
-      }
+      gestureHandler(swipeInfo);
     }
   }
 
@@ -90,14 +86,17 @@ class _GameScreenState extends State<GameScreen> {
     double speed = details.velocity.pixelsPerSecond.dy;
     if (speed > 0) {
       setState(() => swipeInfo = 'DOWN ');
-      if (base.currentBlock.onGesture(swipeInfo)) {
-        setState(() => score++);
-      }
+      gestureHandler(swipeInfo);
     } else if (speed < 0) {
       setState(() => swipeInfo = 'UP ');
-      if (base.currentBlock.onGesture(swipeInfo)) {
-        setState(() => score++);
-      }
+      gestureHandler(swipeInfo);
+    }
+  }
+
+  void gestureHandler(String swipeInfo) {
+    if (base.currentBlock.onGesture(swipeInfo)) {
+      setState(() => score++);
+      base.getNextBlock();
     }
   }
 }

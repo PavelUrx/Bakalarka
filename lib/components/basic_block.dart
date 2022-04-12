@@ -64,4 +64,8 @@ class BasicBlock extends SpriteComponent with HasGameRef {
     sprite!.image.dispose();
     super.onRemove();
   }
+
+  int fromWhereToReact() {
+    return fromWhereReact;
+  }
 }

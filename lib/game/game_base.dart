@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:ui';
 import 'package:bakalarkaflutter/components/basic_block.dart';
 import 'package:flame/game.dart';
@@ -6,14 +7,13 @@ import 'dart:math';
 
 class GameBase extends FlameGame {
   late BasicBlock currentBlock;
-  late List<BasicBlock> iterList;
   late Vector2 screenSize;
   @override
   Color backgroundColor() => const Color.fromARGB(255, 60, 70, 68);
 
   @override
   Future<void> onLoad() async {
-    add(generateNext());
+    spawnTimer(800);
   }
 
   @override
@@ -25,16 +25,29 @@ class GameBase extends FlameGame {
   @override
   void update(double dt) {
     if (children.query<BasicBlock>().isNotEmpty &&
-        children.query<BasicBlock>().last.position.y > 250 &&
-        children.query<BasicBlock>().last.position.y < 260) {
+        children.query<BasicBlock>().last.position.y >= 350) {
       currentBlock = children.query<BasicBlock>().last;
-      add(generateNext());
+    }
+    if (paused) {
+      spawnTimer().cancel();
     }
     super.update(dt);
   }
 
+  Timer spawnTimer([int millis = 800]) =>
+      Timer(Duration(milliseconds: millis), spawnNext);
+
+  void spawnNext() {
+    add(generateNext());
+    spawnTimer();
+  }
+
+  void getNextBlock() {
+    currentBlock = currentBlock = children.query<BasicBlock>().last;
+  }
+
   BasicBlock generateNext() {
-    double speed = 600;
+    double speed = 800;
     switch (Random().nextInt(7)) {
       case 0:
         {
