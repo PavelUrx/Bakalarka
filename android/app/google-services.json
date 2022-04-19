@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535530815463",
+    "project_id": "bpflutter",
+    "storage_bucket": "bpflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535530815463:android:78ad6159e198567b304742",
+        "android_client_info": {
+          "package_name": "com.urxstudios.swipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535530815463-9mjn1sdq3cv8vhe58reahd49rri1l6gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrqmeMh7ATr3N2ezGgfIevc8T-54TNz_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535530815463-9mjn1sdq3cv8vhe58reahd49rri1l6gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
-import 'package:bakalarkaflutter/game/game_screen.dart';
+import 'package:bakalarkaflutter/UI/layouts/game_layout.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Menu extends StatelessWidget {
   const Menu({Key? key}) : super(key: key);
@@ -31,7 +32,11 @@ class Menu extends StatelessWidget {
                   },
                   child: const Text('PLAY!')),
             ),
-            TextButton(onPressed: () {}, child: const Text('SETTINGS')),
+            TextButton(
+                onPressed: () {
+                  HapticFeedback.vibrate();
+                },
+                child: const Text('SETTINGS')),
           ]),
         ));
   }

@@ -5,10 +5,10 @@ class BasicBlock extends SpriteComponent with HasGameRef {
   late double blockSpeed = 1.0; //speed of block moving down
   late Vector2 blockSize = Vector2.all(100); //size of gameBlock
   late String correctGesture; //gesture required for correct play
-  late int fromWhereReact = 0;
   late Vector2 screenSize;
-  BasicBlock(this.spritePath, this.blockSpeed, this.blockSize,
-      this.correctGesture, this.fromWhereReact);
+
+  BasicBlock(
+      this.spritePath, this.blockSpeed, this.blockSize, this.correctGesture);
 
   @override //run while initializing
   Future<void>? onLoad() async {
@@ -50,9 +50,7 @@ class BasicBlock extends SpriteComponent with HasGameRef {
 
   //reacts on gesture from display, reacts at specified % of display
   bool onGesture(String gesture) {
-    if (gesture == correctGesture &&
-        (position.y / screenSize.y) * 100 >
-            (fromWhereReact / screenSize.y) * 100) {
+    if (gesture == correctGesture) {
       return true;
     }
     return false;
@@ -63,9 +61,5 @@ class BasicBlock extends SpriteComponent with HasGameRef {
   void onRemove() {
     sprite!.image.dispose();
     super.onRemove();
-  }
-
-  int fromWhereToReact() {
-    return fromWhereReact;
   }
 }

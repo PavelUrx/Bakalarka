@@ -1,8 +1,8 @@
-import 'package:bakalarkaflutter/nongame/menu.dart';
-import 'package:bakalarkaflutter/theme/app_theme.dart';
+import 'package:bakalarkaflutter/UI/layouts/menu_layout.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'UI/themes/app_theme.dart';
 
 Future<void> main() async {
   setUpApp();

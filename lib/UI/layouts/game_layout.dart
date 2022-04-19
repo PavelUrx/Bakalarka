@@ -1,11 +1,9 @@
-import 'package:bakalarkaflutter/game/game_base.dart';
+import 'package:bakalarkaflutter/game_assets/game/game_base.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 GameBase base = GameBase();
-String swipeInfo = 'SWIPE ';
-int score = 0;
 
 class GameScreen extends StatefulWidget {
   const GameScreen({Key? key}) : super(key: key);
@@ -39,8 +37,8 @@ class _GameScreenState extends State<GameScreen> {
                     backgroundColor: Colors.teal,
                   );
                 }
-                setState(() =>
-                    base.paused ? base.resumeEngine() : base.pauseEngine());
+                setState(
+                    () => base.paused ? base.gameUnpause() : base.gamePause());
               },
             ),
           ],
@@ -50,53 +48,18 @@ class _GameScreenState extends State<GameScreen> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(swipeInfo),
-            ],
-          ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('SCORE: $score'),
+              Text('SCORE: ${base.score}'),
             ],
           ),
         ],
       ),
       body: Center(
         child: GestureDetector(
-          onHorizontalDragEnd: horizontal,
-          onVerticalDragEnd: vertical,
+          onHorizontalDragEnd: base.horizontalDrag,
+          onVerticalDragEnd: base.verticalDrag,
           child: GameWidget(game: base),
         ),
       ),
     );
-  }
-
-  void horizontal(DragEndDetails details) {
-    double speed = details.velocity.pixelsPerSecond.dx;
-    if (speed > 0) {
-      setState(() => swipeInfo = 'RIGHT ');
-      gestureHandler(swipeInfo);
-    } else if (speed < 0) {
-      setState(() => swipeInfo = 'LEFT ');
-      gestureHandler(swipeInfo);
-    }
-  }
-
-  void vertical(DragEndDetails details) {
-    double speed = details.velocity.pixelsPerSecond.dy;
-    if (speed > 0) {
-      setState(() => swipeInfo = 'DOWN ');
-      gestureHandler(swipeInfo);
-    } else if (speed < 0) {
-      setState(() => swipeInfo = 'UP ');
-      gestureHandler(swipeInfo);
-    }
-  }
-
-  void gestureHandler(String swipeInfo) {
-    if (base.currentBlock.onGesture(swipeInfo)) {
-      setState(() => score++);
-      base.getNextBlock();
-    }
   }
 }
