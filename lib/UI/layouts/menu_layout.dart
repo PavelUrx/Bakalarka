@@ -1,6 +1,8 @@
 import 'package:bakalarkaflutter/UI/layouts/game_layout.dart';
+import 'package:bakalarkaflutter/game_assets/game/game_base.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 
 class Menu extends StatelessWidget {
   const Menu({Key? key}) : super(key: key);
@@ -28,7 +30,11 @@ class Menu extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const GameScreen()));
+                            builder: (context) =>
+                                ChangeNotifierProvider<GameBase>.value(
+                                  value: base,
+                                  child: const GameScreen(),
+                                )));
                   },
                   child: const Text('PLAY!')),
             ),

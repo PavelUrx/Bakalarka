@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:flutter/services.dart';
 
-class GameBase extends FlameGame {
+class GameBase extends FlameGame with ChangeNotifier {
   late int lives = 3;
   late BasicBlock currentBlock;
   late Vector2 screenSize;
@@ -27,10 +27,6 @@ class GameBase extends FlameGame {
 
   @override
   void update(double dt) {
-    /*if (currentBlock.position.y > screenSize.y) {
-      gameEnd();
-    }
-    */
     if (children.query<BasicBlock>().isNotEmpty &&
         children.query<BasicBlock>().last.position.y >= fromWhereToReact) {
       currentBlock = children.query<BasicBlock>().last;
@@ -55,6 +51,7 @@ class GameBase extends FlameGame {
       score++;
       getNextBlock();
       HapticFeedback.vibrate();
+      notifyListeners();
     } else {
       //gameEnd();
     }
@@ -99,6 +96,10 @@ class GameBase extends FlameGame {
   void gameUnpause() {
     resumeEngine();
     //spawnTimer();
+  }
+
+  int getScore() {
+    return score;
   }
 
   BasicBlock generateNext() {

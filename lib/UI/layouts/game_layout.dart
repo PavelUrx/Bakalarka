@@ -2,6 +2,7 @@ import 'package:bakalarkaflutter/game_assets/game/game_base.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:provider/provider.dart';
 
 GameBase base = GameBase();
 
@@ -15,6 +16,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
+    final provider = Provider.of<GameBase>(context);
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
@@ -48,7 +50,7 @@ class _GameScreenState extends State<GameScreen> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('SCORE: ${base.score}'),
+              Text('SCORE: ${provider.getScore()}'),
             ],
           ),
         ],
