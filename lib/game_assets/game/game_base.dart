@@ -50,13 +50,11 @@ class GameBase extends FlameGame with ChangeNotifier {
     if (currentBlock.onGesture(gesture)) {
       score++;
       getNextBlock();
-      HapticFeedback.vibrate();
+      HapticFeedback.lightImpact();
       notifyListeners();
     } else {
       //gameEnd();
     }
-    //print(gesture);
-    //update game stats in game_layout
   }
 
   void verticalDrag(DragEndDetails details) {
@@ -67,8 +65,7 @@ class GameBase extends FlameGame with ChangeNotifier {
     } else if (speed < 0) {
       gesture = 'UP';
     }
-    gestureHandler(
-        gesture); // prooooooooooooooooooooooooooooooooooooooč nebere gesto
+    gestureHandler(gesture);
   }
 
   void horizontalDrag(DragEndDetails details) {
@@ -85,7 +82,7 @@ class GameBase extends FlameGame with ChangeNotifier {
   void gameEnd() {
     pauseEngine();
     spawnTimer().cancel();
-    //todo
+    removeAll(children);
   }
 
   void gamePause() {
@@ -94,8 +91,9 @@ class GameBase extends FlameGame with ChangeNotifier {
   }
 
   void gameUnpause() {
+    removeAll(children);
     resumeEngine();
-    //spawnTimer();
+    onLoad();
   }
 
   int getScore() {
