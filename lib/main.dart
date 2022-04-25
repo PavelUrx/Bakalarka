@@ -8,7 +8,7 @@ Future<void> main() async {
   setUpApp();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Game_name',
+    title: 'SWIPE',
     theme: AppTheme.lightTheme,
     home: const Menu(),
   ));

@@ -1,14 +1,14 @@
 import 'package:bakalarkaflutter/UI/layouts/game_layout.dart';
-import 'package:bakalarkaflutter/game_assets/game/game_base.dart';
+import 'package:bakalarkaflutter/UI/widgets/button_widget.dart';
+import 'package:bakalarkaflutter/routing/menu_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 
 class Menu extends StatelessWidget {
   const Menu({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    MenuRoutes menuRoutes = MenuRoutes();
     return Scaffold(
         appBar: AppBar(
           toolbarHeight: 40,
@@ -16,33 +16,17 @@ class Menu extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                Text('TOP SCORE: 420'),
+                Text('TOP SCORE: WIP'),
               ],
             ),
           ],
         ),
         body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            Container(
-              margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
-              child: TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) =>
-                                ChangeNotifierProvider<GameBase>.value(
-                                  value: base,
-                                  child: const GameScreen(),
-                                )));
-                  },
-                  child: const Text('PLAY!')),
-            ),
-            TextButton(
-                onPressed: () {
-                  HapticFeedback.vibrate();
-                },
-                child: const Text('SETTINGS')),
+            MenuButton(
+                onPressed: () =>
+                    menuRoutes.openGame(context, base, const GameScreen()),
+                buttonText: 'PLAY')
           ]),
         ));
   }

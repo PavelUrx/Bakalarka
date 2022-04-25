@@ -14,36 +14,36 @@ class BasicBlock extends SpriteComponent with HasGameRef {
   Future<void>? onLoad() async {
     super.onLoad();
     size = blockSize;
-    poseBlock(size);
+    poseObject(size);
     sprite = await gameRef.loadSprite(spritePath);
   }
 
   @override //run on every frame
   void update(double dt) {
-    blockMover(blockSpeed, dt);
+    objectMover(blockSpeed, dt);
     super.update(dt);
   }
 
   @override //run on start and after resize
   void onGameResize(Vector2 size) {
     screenSize = size;
-    resizeBlock(size);
+    resizeObject(size);
     super.onGameResize(size);
   }
 
   //set up gameBlock size to % of device screen
-  void resizeBlock(Vector2 size) {
+  void resizeObject(Vector2 size) {
     blockSize.x = size.x / 100 * blockSize.x;
     blockSize.y = size.x / 100 * blockSize.y;
   }
 
   //moves block
-  void blockMover(double speed, double dt) {
+  void objectMover(double speed, double dt) {
     position.add(Vector2(0, speed * dt));
   }
 
   //sets block on correct sport
-  void poseBlock(Vector2 size) {
+  void poseObject(Vector2 size) {
     position.x = (screenSize.x - blockSize.x) / 2;
     position.y = -blockSize.y;
   }

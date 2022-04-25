@@ -8,7 +8,6 @@ GameBase base = GameBase();
 
 class GameScreen extends StatefulWidget {
   const GameScreen({Key? key}) : super(key: key);
-
   @override
   State<GameScreen> createState() => _GameScreenState();
 }

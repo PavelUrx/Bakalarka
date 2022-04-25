@@ -124,6 +124,8 @@
 # The proguard configuration file for the following section is C:\projekty\BakalarkaFlutter\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
@@ -311,6 +313,24 @@
 }
 
 # End of content from C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\1e3e6886f3cdab40e2acfa6c3e1f2610\jetified-play-services-measurement-sdk-20.1.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\783b62978a1a70438ad37c39af251d22\jetified-play-services-drive-17.0.0\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.drive.zzkk {
+  <fields>;
+}
+
+# End of content from C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\783b62978a1a70438ad37c39af251d22\jetified-play-services-drive-17.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\b518c7f43466ac678c88bffc30eb965e\jetified-play-services-auth-base-18.0.1\proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.auth.zzeq {
+  <fields>;
+}
+
+# End of content from C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\b518c7f43466ac678c88bffc30eb965e\jetified-play-services-auth-base-18.0.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\purx2\.gradle\caches\transforms-2\files-2.1\37425ca1da537beeff65bfee35ec9b80\jetified-play-services-base-18.0.1\proguard.txt
 # b/35135904 Ensure that proguard will not strip the mResultGuardian.
 -keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {

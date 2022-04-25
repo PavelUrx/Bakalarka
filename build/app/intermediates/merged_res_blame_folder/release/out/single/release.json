@@ -4,6 +4,10 @@
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
@@ -224,6 +228,10 @@
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -234,6 +242,10 @@
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\projekty\\BakalarkaFlutter\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
