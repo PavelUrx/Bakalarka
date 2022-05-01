@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:bakalarkaflutter/game_assets/components/basic_block_component.dart';
+import 'package:bakalarkaflutter/game_assets/game/game_event.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'dart:math';
 import 'package:flutter/services.dart';
 
 class GameBase extends FlameGame with ChangeNotifier {
@@ -11,12 +11,16 @@ class GameBase extends FlameGame with ChangeNotifier {
   late Vector2 screenSize;
   late int score = 0;
   double fromWhereToReact = 350;
+  EventHandler eventHandler = EventHandler();
+  String eventName = '';
   @override
   Color backgroundColor() => const Color.fromARGB(255, 60, 70, 68);
 
   @override
   Future<void> onLoad() async {
     spawnNext();
+    eventHandler.startTimer();
+    eventName = eventHandler.getEventName();
   }
 
   @override
@@ -31,6 +35,7 @@ class GameBase extends FlameGame with ChangeNotifier {
         children.query<BasicBlock>().last.position.y >= fromWhereToReact) {
       currentBlock = children.query<BasicBlock>().last;
     }
+    updateEventName();
     super.update(dt);
   }
 
@@ -38,12 +43,12 @@ class GameBase extends FlameGame with ChangeNotifier {
       Timer(Duration(milliseconds: millis), spawnNext);
 
   void spawnNext() {
-    add(generateNext());
+    add(eventHandler.generateNext());
     spawnTimer();
   }
 
   void getNextBlock() {
-    currentBlock = currentBlock = children.query<BasicBlock>().last;
+    currentBlock = children.query<BasicBlock>().last;
   }
 
   void gestureHandler(String gesture) {
@@ -86,56 +91,22 @@ class GameBase extends FlameGame with ChangeNotifier {
   }
 
   void gamePause() {
-    pauseEngine();
+    //pauseEngine();
     spawnTimer().cancel();
   }
 
   void gameUnpause() {
-    removeAll(children);
     resumeEngine();
-    onLoad();
   }
 
   int getScore() {
     return score;
   }
 
-  BasicBlock generateNext() {
-    double speed = 800;
-    switch (Random().nextInt(7)) {
-      case 0:
-        {
-          return (BasicBlock('up_green.png', speed, Vector2.all(50), 'UP'));
-        }
-      case 1:
-        {
-          return (BasicBlock('down_green.png', speed, Vector2.all(50), 'DOWN'));
-        }
-      case 2:
-        {
-          return (BasicBlock('left_green.png', speed, Vector2.all(50), 'LEFT'));
-        }
-      case 3:
-        {
-          return (BasicBlock(
-              'right_green.png', speed, Vector2.all(50), 'RIGHT'));
-        }
-      case 4:
-        {
-          return (BasicBlock('up_red.png', speed, Vector2.all(50), 'DOWN'));
-        }
-      case 5:
-        {
-          return (BasicBlock('down_red.png', speed, Vector2.all(50), 'UP'));
-        }
-      case 6:
-        {
-          return (BasicBlock('right_red.png', speed, Vector2.all(50), 'LEFT'));
-        }
-      default:
-        {
-          return (BasicBlock('left_red.png', speed, Vector2.all(50), 'RIGHT'));
-        }
+  void updateEventName() {
+    if (eventName != eventHandler.getEventName()) {
+      eventName = eventHandler.getEventName();
+      notifyListeners();
     }
   }
 }
