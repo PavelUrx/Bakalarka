@@ -6,20 +6,25 @@ import '../events/basic_event.dart';
 import '../events/reversed_event.dart';
 
 class EventHandler {
+  BasicEvent currentEvent = BasicEvent('', 650);
+  Timer eventTimer([int millis = 3000]) =>
+      Timer(Duration(milliseconds: millis), getNewEvent);
+  Timer noEventTimer([int millis = 3000]) =>
+      Timer(Duration(milliseconds: millis), setBasicEvent);
+
   EventHandler();
 
-  BasicEvent currentEvent = BasicEvent('', 800);
   void getNewEvent() {
     noEventTimer();
     switch (Random().nextInt(1)) {
       case 0:
         {
-          currentEvent = ReversedEvent('REVERSED', 800);
+          currentEvent = ReversedEvent('REVERSED', 650);
         }
         break;
       default:
         {
-          currentEvent = BasicEvent('', 800);
+          currentEvent = BasicEvent('', 650);
         }
     }
   }
@@ -32,16 +37,10 @@ class EventHandler {
     return currentEvent.generateNext();
   }
 
-  setBasicEvent() {
-    currentEvent = BasicEvent('', 800);
+  void setBasicEvent() {
+    currentEvent = BasicEvent('', 650);
     eventTimer();
   }
-
-  Timer eventTimer([int millis = 3000]) =>
-      Timer(Duration(milliseconds: millis), getNewEvent);
-
-  Timer noEventTimer([int millis = 3000]) =>
-      Timer(Duration(milliseconds: millis), setBasicEvent);
 
   void startTimer() {
     noEventTimer();

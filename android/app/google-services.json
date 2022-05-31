@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "535530815463",
-    "project_id": "bpflutter",
-    "storage_bucket": "bpflutter.appspot.com"
+    "project_number": "130970484826",
+    "project_id": "swipe-4afa2",
+    "storage_bucket": "swipe-4afa2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:535530815463:android:78ad6159e198567b304742",
+        "mobilesdk_app_id": "1:130970484826:android:0bc16a2294b65f6f571863",
         "android_client_info": {
           "package_name": "com.urxstudios.swipe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "535530815463-9mjn1sdq3cv8vhe58reahd49rri1l6gm.apps.googleusercontent.com",
+          "client_id": "130970484826-99flmk61d1ohm1u86guk9baplq9sn5m0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrqmeMh7ATr3N2ezGgfIevc8T-54TNz_4"
+          "current_key": "AIzaSyDcLTbFYmfG-OUHKkNQMWjw49WWDRQkrAY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "535530815463-9mjn1sdq3cv8vhe58reahd49rri1l6gm.apps.googleusercontent.com",
+              "client_id": "130970484826-99flmk61d1ohm1u86guk9baplq9sn5m0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

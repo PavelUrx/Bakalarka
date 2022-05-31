@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\fd45eef9102467975e78efdf6b9144ed\\transformed\\jetified-play-services-base-17.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    }
+]

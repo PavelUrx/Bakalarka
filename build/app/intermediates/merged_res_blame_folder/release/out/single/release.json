@@ -32,6 +32,10 @@
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_admob_close_button_black_circle_white_cross.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\5540e7637a9c895bba9edfdf289191ee\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_black_circle_white_cross.xml"
+    },
+    {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
@@ -214,6 +218,10 @@
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_admob_close_button_white_circle_black_cross.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\5540e7637a9c895bba9edfdf289191ee\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_white_circle_black_cross.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v16_notification_template_custom_big.xml.flat",
