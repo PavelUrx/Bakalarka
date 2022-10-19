@@ -3,6 +3,6 @@
 3    package="com.abedalkareem.games_services" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->C:\tools\flutter\.pub-cache\hosted\pub.dartlang.org\games_services-2.0.7\android\src\main\AndroidManifest.xml
+5-->C:\tools\flutter\.pub-cache\hosted\pub.dartlang.org\games_services-2.0.8\android\src\main\AndroidManifest.xml
 6
 7</manifest>

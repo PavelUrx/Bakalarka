@@ -1,34 +1,34 @@
 [
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\browser_actions_context_menu_row.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\44f046587209b352b1f56a02e630fb45\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\f374a4eb52dfd83815e4c6039710d0be\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\browser_actions_context_menu_page.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\44f046587209b352b1f56a02e630fb45\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\f374a4eb52dfd83815e4c6039710d0be\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\b2c1f6e7c40197c7b6d76e9a50190fd7\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
     }
 ]

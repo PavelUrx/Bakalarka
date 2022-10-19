@@ -5,7 +5,6 @@ import 'package:bakalarkaflutter/UI/widgets/button_widget.dart';
 import 'package:bakalarkaflutter/UI/widgets/scaffold_widget.dart';
 import 'package:bakalarkaflutter/routing/menu_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:games_services/games_services.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class Menu extends StatefulWidget {
@@ -32,7 +31,7 @@ class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     MenuRoutes menuRoutes = MenuRoutes();
-    AppBarItem score = const AppBarItem(itemText: 'TOP SCORE: 666');
+    AppBarItem score = AppBarItem(itemText: 'TOP SCORE: ${menuRoutes.score}');
     AppBarContent content = AppBarContent(appBarItem: score);
     return MenuScaffold(
       appBar: AppBar(
@@ -49,14 +48,6 @@ class _MenuState extends State<Menu> {
                       onPressed: () => menuRoutes.openGame(
                           context, base, const GameScreen()),
                       buttonText: 'PLAY'),
-                ]),
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                  MenuButton(
-                      onPressed: () =>
-                          GamesServices.isSignedIn == Future<bool>.value(true)
-                              ? GamesServices.showLeaderboards()
-                              : GamesServices.signIn(),
-                      buttonText: 'SIGN IN'),
                 ]),
               ],
             ),

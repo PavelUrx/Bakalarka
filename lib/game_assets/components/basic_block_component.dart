@@ -48,7 +48,7 @@ class BasicBlock extends SpriteComponent with HasGameRef {
     position.y = -blockSize.y;
   }
 
-  //reacts on gesture from display, reacts at specified % of display
+  //reacts on gesture from display
   bool onGesture(String gesture) {
     if (gesture == correctGesture) {
       return true;

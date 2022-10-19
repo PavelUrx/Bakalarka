@@ -4,41 +4,45 @@ import 'package:bakalarkaflutter/game_assets/game/game_event.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class GameBase extends FlameGame with ChangeNotifier {
   late int lives = 3;
-  late BasicBlock currentBlock;
+  late BasicBlock? currentBlock =
+      BasicBlock('up_green.png', 500, Vector2.all(50), 'DOWN');
   late Vector2 screenSize;
   late int score = 0;
-  double fromWhereToReact = 350;
   EventHandler eventHandler = EventHandler();
   String eventName = '';
   @override
   Color backgroundColor() => const Color.fromARGB(255, 60, 70, 68);
 
-  @override
+  GameBase();
+
+  @override //Inicializace hry
   Future<void> onLoad() async {
     spawnNext();
     eventHandler.startTimer();
     eventName = eventHandler.getEventName();
   }
 
-  @override
+  @override //Pri zmene velikosti zobrazeni
   void onGameResize(Vector2 canvasSize) {
     screenSize = canvasSize;
     super.onGameResize(canvasSize);
   }
 
-  @override
+  @override //aktualizace snimku hry
   void update(double dt) {
     if (children.query<BasicBlock>().isNotEmpty &&
-        children.query<BasicBlock>().last.position.y >= fromWhereToReact) {
-      currentBlock = children.query<BasicBlock>().last;
+        children.query<BasicBlock>().last.position.y >= 350) {
+      getNextBlock();
     }
     updateEventName();
     super.update(dt);
   }
 
+  //casovac vyvolani novych sipek
   Timer spawnTimer([int millis = 800]) =>
       Timer(Duration(milliseconds: millis), spawnNext);
 
@@ -52,13 +56,26 @@ class GameBase extends FlameGame with ChangeNotifier {
   }
 
   void gestureHandler(String gesture) {
-    if (currentBlock.onGesture(gesture)) {
+    if (currentBlock!.onGesture(gesture)) {
       score++;
       getNextBlock();
       HapticFeedback.lightImpact();
-      notifyListeners();
+      getNextBlock();
     } else {
-      //gameEnd();
+      lives--;
+      if (lives < 1) {
+        gameEnd();
+      }
+    }
+    notifyListeners();
+  }
+
+  void updateTopScore(int score) async {
+    final prefs = await SharedPreferences.getInstance();
+    final int? topScore = prefs.getInt('topScore');
+    if (topScore! < score) {
+      await prefs.remove('topScore');
+      await prefs.setInt('topScore', score);
     }
   }
 
@@ -85,8 +102,7 @@ class GameBase extends FlameGame with ChangeNotifier {
   }
 
   void gameEnd() {
-    pauseEngine();
-    spawnTimer().cancel();
+    //pauseEngine();
     removeAll(children);
   }
 
@@ -101,6 +117,10 @@ class GameBase extends FlameGame with ChangeNotifier {
 
   int getScore() {
     return score;
+  }
+
+  int getLives() {
+    return lives;
   }
 
   void updateEventName() {

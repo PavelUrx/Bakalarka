@@ -42,6 +42,12 @@ class _GameScreenState extends State<GameScreen> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text('LIVES: ${provider.getLives()}        '),
+            ],
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
               Text('SCORE: ${provider.getScore()}'),
             ],
           ),

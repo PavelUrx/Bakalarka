@@ -1,15 +1,15 @@
 [
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\da75779a1cc3891afc2dbc810a589462\\transformed\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_toast_custom.xml.flat",
@@ -17,83 +17,83 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_admob_close_button_black_circle_white_cross.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\5540e7637a9c895bba9edfdf289191ee\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_black_circle_white_cross.xml"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-v21_launch_background.xml.flat",
         "source": "C:\\projekty\\BakalarkaFlutter\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
     },
     {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_admob_close_button_black_circle_white_cross.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\47f0aa10c84e9c14d524cc56a0a93b8c\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_black_circle_white_cross.xml"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_toast_bg.xml.flat",
         "source": "C:\\projekty\\BakalarkaFlutter\\build\\fluttertoast\\intermediates\\packaged_res\\release\\drawable\\toast_bg.xml"
     },
     {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -101,59 +101,63 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\xml_image_share_filepaths.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\99aa847f485bd973da39241ccfe4ec62\\transformed\\browser-1.4.0\\res\\xml\\image_share_filepaths.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -161,7 +165,7 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_launch_background.xml.flat",
@@ -169,11 +173,11 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -181,7 +185,7 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
@@ -189,59 +193,63 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\raw_keep.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\42765d819db996a305ba08ccf7ed5ca5\\transformed\\jetified-firebase-common-20.1.1\\res\\raw\\keep.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_row.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\8bb8e61f4a05a2b10e69956fedc987eb\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\99aa847f485bd973da39241ccfe4ec62\\transformed\\browser-1.4.0\\res\\layout\\browser_actions_context_menu_row.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_admob_close_button_white_circle_black_cross.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\5540e7637a9c895bba9edfdf289191ee\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_white_circle_black_cross.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\47f0aa10c84e9c14d524cc56a0a93b8c\\transformed\\jetified-play-services-ads-20.6.0\\res\\drawable\\admob_close_button_white_circle_black_cross.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout-v16\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\da75779a1cc3891afc2dbc810a589462\\transformed\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_corner.xml.flat",
@@ -253,114 +261,114 @@
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\933009813afddbd11cc84c781f3e35e5\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\da75779a1cc3891afc2dbc810a589462\\transformed\\jetified-play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\notification_action.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_custom_dialog.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_page.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\8bb8e61f4a05a2b10e69956fedc987eb\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\99aa847f485bd973da39241ccfe4ec62\\transformed\\browser-1.4.0\\res\\layout\\browser_actions_context_menu_page.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\875654acb8fd75501dc33efa1bebb479\\core-1.6.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\8bef86bcd6c98084cc0207ac9514d53e\\transformed\\core-1.6.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\37425ca1da537beeff65bfee35ec9b80\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\18462692efac2a56a6e49a332c27bef2\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     }
 ]

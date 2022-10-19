@@ -1,14 +1,14 @@
 [
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\92e1ad70f1662839d9f94272f34207c2\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\71a2fafa997ed7075e0c22c0328abe2e\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\92e1ad70f1662839d9f94272f34207c2\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\71a2fafa997ed7075e0c22c0328abe2e\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\projekty\\BakalarkaFlutter\\build\\google_mobile_ads\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-2\\files-2.1\\92e1ad70f1662839d9f94272f34207c2\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\purx2\\.gradle\\caches\\transforms-3\\71a2fafa997ed7075e0c22c0328abe2e\\transformed\\jetified-play-services-base-17.6.0\\res\\color\\common_google_signin_btn_text_dark.xml"
     }
 ]

@@ -8,7 +8,7 @@ class ReversedEvent extends BasicEvent {
 
   @override
   BasicBlock generateNext() {
-    double speed = 800;
+    double speed = 650;
     switch (Random().nextInt(7)) {
       case 0:
         {

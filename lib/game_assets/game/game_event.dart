@@ -7,9 +7,9 @@ import '../events/reversed_event.dart';
 
 class EventHandler {
   BasicEvent currentEvent = BasicEvent('', 650);
-  Timer eventTimer([int millis = 3000]) =>
+  Timer eventTimer([int millis = 15000]) =>
       Timer(Duration(milliseconds: millis), getNewEvent);
-  Timer noEventTimer([int millis = 3000]) =>
+  Timer noEventTimer([int millis = 5000]) =>
       Timer(Duration(milliseconds: millis), setBasicEvent);
 
   EventHandler();
@@ -38,7 +38,7 @@ class EventHandler {
   }
 
   void setBasicEvent() {
-    currentEvent = BasicEvent('', 650);
+    currentEvent = BasicEvent('', 550);
     eventTimer();
   }
 
