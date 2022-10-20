@@ -1,16 +1,9 @@
-# bakalarkaflutter
+# Hra ve Flutteru v rámci bakalářské práce
 
-A new Flutter project.
+## Cíl projektu jednoduchá hra pro mobilní telefon
+Jedná se o jednoduchou hru postavenou na modulárním herním enginu Flame, který je součástí knihoven pro Flutter.
 
-## Getting Started
+Cílem hry je táhnout směrem kterým ukazují šipky. Zelená šipka znamená tah směrem, kterým šipka ukazuje a červená proti směru.
 
-This project is a starting point for a Flutter application.
+Hra je připravena pro přidání herních eventů, které různě upravují herní pravidla. Například "reversed" event, který dočasně prohazuje význam barev šipek.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
